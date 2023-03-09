@@ -2,6 +2,10 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 .header {
   height: 42px;
   background: #333333;
@@ -42,12 +46,12 @@ body {
   padding: 0 12px;
 }
 #main .container {
+  margin: 0 auto;
   padding: 0 20px;
 }
 .container {
   width: 100%;
   max-width: 980px;
-  margin: 0 auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -57,68 +61,71 @@ body {
 }
 .engine {
   color: #333333;
-  font: 20px;
-  margin: 20px 0;
+  font-size: 20px;
+}
+.engine a {
+  color: #43853d;
+  cursor: pointer;
+  text-decoration: none;
+}
+.engine a:hover {
+  background-color: #43853d;
+  color: #fff;
 }
 .banner {
-  max-width: 735px;
   padding: 30px 0;
   margin: 26px 0 26px 0;
   padding: 5px 15px;
 }
-.security {
-  background: #eaf5e9;
-  font-size: 130%;
-  margin: 26 0px;
-  padding: 5 15px;
-  border-radius: 2px;
-  margin-top: 1em;
-}
-.security a {
-  color: #026e00;
-  font: 26px;
-  margin: 0;
-  padding: 0;
-}
 .download {
   color: #333333;
-  font: 30px;
+  font-size: 30px;
   margin: 24.5px 0 0;
 }
-.button {
+.root {
   display: flex;
+  justify-content: center;
+}
+.button {
   margin: 0 8px 0 8px;
 }
 .button button {
   cursor: pointer;
   background: #43853d;
+  border: none;
   border-radius: 5px;
   color: #ffffff;
   font-size: 30px;
   margin: 10px 4px;
   padding: 6px 18px;
+  line-height: 35px;
+}
+.button small {
+  font-size: 16px;
 }
 #main1 ul {
   display: flex;
   align-items: center;
+  justify-content: center;
   list-style: none;
-  flex-direction: column;
+  color: #43853d;
 }
+
 #main1 li + li:before {
   content: "|";
-  padding: 0 0.3em 0 0.1em;
-  color: #999;
+  color: #43853d;
 }
+
 #main2 ul {
   display: flex;
   align-items: center;
+  justify-content: center;
   list-style: none;
-  flex-direction: column;
+  color: #43853d;
 }
 #main2 li + li:before {
   content: "|";
-  padding: 0 0.3em 0 0.1em;
-  color: #999;
+  color: #43853d;
 }
 .LTS {
   font-size: 20px;
@@ -128,10 +135,20 @@ body {
   color: #43853d;
   cursor: pointer;
 }
+.LTS a:hover {
+  background-color: #43853d;
+  color: #fff;
+}
 
 footer {
   background: #333333;
+  margin: 40px 0 0;
   padding: 13px 20px;
   font-size: 13px;
   color: #ffffff;
+  text-align: center;
+}
+footer a {
+  color: #add8e6;
+  text-decoration: none;
 }

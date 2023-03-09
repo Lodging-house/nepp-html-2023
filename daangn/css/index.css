@@ -1,0 +1,19 @@
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#root {
+  display: flex;
+}
+.top_menu {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  color: #4d5159;
+}
+.used {
+  color: #ff6f0f;
+}
