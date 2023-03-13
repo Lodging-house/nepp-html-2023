@@ -1,8 +1,10 @@
+body {
+  margin: 0;
+}
 header {
   position: fixed;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  background-color: #ffffff;
 }
 #root {
   display: flex;
@@ -16,4 +18,135 @@ header {
 }
 .used {
   color: #ff6f0f;
+}
+main {
+  padding-top: 60px;
+}
+.section_main_top {
+  background: #fbf7f2;
+}
+.page-wrapper {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.main_top {
+  display: flex;
+  align-items: center;
+}
+.main_top_text {
+  display: flex;
+  flex-direction: column;
+}
+.main_top_iamge {
+  width: 804px;
+  height: 685px;
+}
+
+.section_main_middle1 {
+  background: #ffffff;
+}
+.page-wrapper {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.main_middle1 {
+  display: flex;
+  align-items: center;
+}
+.main_middle1_iamge {
+  width: 532px;
+  height: 684px;
+}
+.main_middle1_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_main_middle2 {
+  background: #e6f3e6;
+}
+.page-wrapper {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.main_middle2 {
+  display: flex;
+  align-items: center;
+}
+.main_middle2_iamge {
+  width: 546px;
+  height: 740px;
+}
+.main_middle2_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_main_middle3 {
+  background: #ffffff;
+}
+.page-wrapper {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.main_middle3 {
+  display: flex;
+  align-items: center;
+}
+.main_middle3_iamge {
+  width: 526px;
+  height: 735px;
+}
+.main_middle3_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_main_middle4 {
+  background: #f8f9fa;
+}
+.page-wrapper {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.main_middle4 {
+  display: flex;
+  align-items: center;
+}
+.main_middle4_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_main_bottom {
+  background: #f8f9fa;
+}
+.page-wrapper {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.main_bottom {
+  display: flex;
+  align-items: center;
+}
+.main_bottom_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_bottom_text td > a {
+  text-decoration: none;
 }
